@@ -12,10 +12,10 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 0; ch < 10; ch++)
+int i;
+for (i = 0; i <= 9; i++)
 {
-putchar(ch);
+putchar(i);
 }
 putchar('\n');
 return (0);
