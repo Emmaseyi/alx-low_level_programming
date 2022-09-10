@@ -12,15 +12,15 @@ int a = 0;
 int b;
 int c;
 
-while (a <= 099)
+while (a <= 99)
 {
-b = (a / 10 + '0');
-c = (a % 10 + '0');
+b = (a / 10 + '00');
+c = (a % 10 + '00');
 if (b < c)
 {
 putchar(b);
 putchar(c);
-if (a != 089)
+if (a != 89)
 {
 putchar(',');
 putchar(' ');
