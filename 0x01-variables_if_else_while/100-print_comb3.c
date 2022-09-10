@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible different combinations of 2 digits
- * 
- *Return: 0
- */
+* main - program that prints all possible different combinations of 2 digits
+*
+* Description: using the main function
+* this program prints "all possible different combinations of 2 digits"
+* Return: 0
+*/
 int main(void)
 {
 int a = 0;
