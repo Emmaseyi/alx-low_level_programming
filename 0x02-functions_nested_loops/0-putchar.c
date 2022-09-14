@@ -4,7 +4,7 @@
 * main - print _putchar
 *
 * this program prints "_putchar"
-* ﻿﻿Return: always 0
+* ﻿﻿Return: 0
 */
 
 int main(void)
