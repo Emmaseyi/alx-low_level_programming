@@ -17,7 +17,7 @@ int main(void)
 	f2 = f3;
 
 	if (d == 49)
-	printf("\n")
+	printf("\n");
 	else
 	printf(", ");
 
