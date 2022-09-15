@@ -10,10 +10,10 @@ void print_times_table(int g)
 	int digit, mult, result;
 	if (g <= 15 && g >= 0)
 {
+
 	for (digit = 0; digit <= g; digit++)
 {
 	_putchar('0');
-	
 	for (mult = 1; mult <= g; mult++)
 {
 	_putchar(',');
