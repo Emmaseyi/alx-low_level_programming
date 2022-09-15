@@ -2,7 +2,7 @@
 
 /**
 *mul - multiplies two numbers
-*Qa: first number
+*@a: first number
 *@b: second number
 *Return: returns result
 */
