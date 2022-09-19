@@ -17,6 +17,8 @@ void print_array(int *a, int n)
 	{
 		if (inc != n - 1)
 			print("%d", a[inc]);
+		else
+			print("%d", a[inc]);
 	}
 putchar(10);
 }
