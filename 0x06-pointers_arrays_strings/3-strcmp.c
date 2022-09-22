@@ -7,7 +7,7 @@
  * Return: 0, positive number, negative number
  */
 
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
 
 int i = 0, diff = 0;
@@ -32,7 +32,7 @@ else if (s1[i] != s2[i])
 	break;
 }
 else
-i++
+i++;
 }
 return (diff);
 }
