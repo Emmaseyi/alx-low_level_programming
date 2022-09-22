@@ -15,21 +15,21 @@ int i = 0, diff = 0;
 while (i)
 {
 if (s1[i] == '\0' && s2[i] == '\0')
-	break;
+break;
 else if (s1[i] == '\0')
 {
-	diff = s2[i];
-	break;
+diff = s2[i];
+break;
 }
 else if (s2[i] == '\0')
 {
-	diff = s1[i];
-	break;
+diff = s1[i];
+break;
 }
 else if (s1[i] != s2[i])
 {
-	diff = s1[i] - s2[i];
-	break;
+diff = s1[i] - s2[i];
+break;
 }
 else
 i++;
