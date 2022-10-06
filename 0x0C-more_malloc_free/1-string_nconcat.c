@@ -1,37 +1,42 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
-* _strdup - returns a pointer to a newly allocated
-*space in memory, which contains a copy of the
-*string given as a parameter.
-*@str:String to be copied
-*
-*Return: NULL in case of error, pointer to allocated
-*space
-*/
-
-char *_strdup(char *str)
+ * string_nconcat -  concatenates two strings
+ * @s1: first string to copy
+ * @s2: second string to copy
+ * @n: number of bytes of s2 to copy
+ *
+ * Return: char pointer to newly allocated place in memory
+ */
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *cpy;
-	int index, len;
+	unsigned int a, b, c;
+	char *s;
 
-	if (str == NULL)
-		return (NULL);
-
-	for (index = 0; str[index]; index++)
-		len++;
-	cpy = malloc(sizeof(char) * (len + 1));
-
-	if (cpy == NULL)
-		return (NULL);
-
-	for (index = 0; str[index]; index++)
+	if (s1 == NULL)
+		a = 0;
+	else
 	{
-		cpy[index] = str[index];
+		for (a == 0; s1[a]; a++)
+			;
 	}
-
-	cpy[len] = '\0';
-
-	return (cpy);
-
+	if (s2 == NULL)
+		b = 0;
+	else
+	{
+		for (b = 0; s2[b]; b++)
+			;
+	}
+	if (b > n)
+		b = n;
+	s = malloc(sizeof(char) * (a + b + 1));
+	if (s == NULL)
+		return (NULL);
+	for (c = 0; c < i; c++)
+		s[c] = s1[c];
+	for (c = 0; c < i; c++)
+		s[c + a] = s2[c];
+	s[a + b] = '\0';
+	return (s);
 }
