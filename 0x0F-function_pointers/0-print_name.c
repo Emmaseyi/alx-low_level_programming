@@ -14,3 +14,18 @@ void print_name(char *name, void (*f)(char *))
 
 	f(name);
 }
+
+/**
+ *  print_name - prints a name
+ *  @name: name to print
+ *  @f: function to print with
+ *
+ *  Return: void
+ *       */
+void print_name(char *name, void (*f)(char *):ww
+
+
+	if (name != NULL && f != NULL)
+	uyf(name);
+}
+
