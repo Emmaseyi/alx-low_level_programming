@@ -4,4 +4,5 @@
 3. Add node at the end
 4. Free list
 5. The Hare and the Tortoise
-6. Real programmers can write assembly code in any langua
+6. Real programmers can write assembly code
+in a language
